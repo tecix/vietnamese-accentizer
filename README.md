@@ -151,6 +151,6 @@ Feel free to open issues or PRs to improve performance, support batch processing
 
 ## 📜 License
 
-[MIT License](LICENSE)
+[GNU Affero General Public License v3.0](LICENSE)
 
 
