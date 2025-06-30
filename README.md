@@ -2,7 +2,6 @@
 
 A local Vietnamese diacritic insertion service using a FastAPI backend and a macOS Automator Quick Action for one‑key accent correction.
 
----
 
 ## 🚀 Features
 
@@ -10,7 +9,6 @@ A local Vietnamese diacritic insertion service using a FastAPI backend and a mac
 - **Shell Client**: `add_accents_withserver.sh` reads stdin, POSTs to the local server, and returns accented text.
 - **macOS Automator Quick Action**: Select any paragraph in any app and press your chosen hotkey to replace it with properly accented Vietnamese.
 
----
 
 ## 📦 Repository Structure
 
@@ -21,7 +19,6 @@ A local Vietnamese diacritic insertion service using a FastAPI backend and a mac
 └── README.md                  # This file
 ```
 
----
 
 ## 🛠️ Prerequisites
 
@@ -33,7 +30,6 @@ A local Vietnamese diacritic insertion service using a FastAPI backend and a mac
 
 You can install Homebrew from [https://brew.sh](https://brew.sh).
 
----
 
 ## 1. Setup FastAPI Server
 
@@ -90,8 +86,6 @@ You can install Homebrew from [https://brew.sh](https://brew.sh).
    ```
    You should see: `Nhìn những mùa thu dị` (or similar).
 
----
-
 ## 3. macOS Automator Quick Action
 
 1. **Open Automator** (⌘+Space → type "Automator").
@@ -124,8 +118,6 @@ You can install Homebrew from [https://brew.sh](https://brew.sh).
    ```
 7. **Save** the Quick Action with a name like **Add Vietnamese Accents**.
 
----
-
 ## 4. Assign a Keyboard Shortcut
 
 1. Open **System Settings** → **Keyboard** → **Keyboard Shortcuts**.  
@@ -133,21 +125,15 @@ You can install Homebrew from [https://brew.sh](https://brew.sh).
 3. Find **Add Vietnamese Accents** under the **Text** section.  
 4. Click and assign a hotkey (e.g. ⌘⌥⌃V).
 
----
-
 ## 🎉 Usage
 
 1. In any app that supports text selection, **highlight** a paragraph of un‑accented Vietnamese.  
 2. Press your configured hotkey.  
 3. The text is replaced in‑place with correct Vietnamese accents.
 
----
-
 ## 🤝 Contributing
 
 Feel free to open issues or PRs to improve performance, support batch processing, or add new features.
-
----
 
 ## 📜 License
 
